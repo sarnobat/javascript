@@ -1,0 +1,415 @@
+{
+  "name": "vim",
+  "children": [
+    {
+      "name": "Ctrl",
+      "children": [
+        {
+		  "color": "red",
+          "name": "n",
+          "children": []
+        },
+        {
+          "name": "p",
+          "children": []
+        },
+        {
+          "name": "r",
+          "children": []
+        },
+        {
+          "name": "w",
+          "children": [
+            {
+              "name": "Ctrl w",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "v",
+          "children": [
+            {
+              "name": "Shift + I",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "]",
+          "children": [
+            {
+              "name": "Ctrl",
+              "children": [
+                {
+                  "name": "t",
+                  "children": []
+                },
+                {
+                  "name": "o",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "q",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": ":",
+      "children": [
+        {
+          "name": "x",
+          "children": []
+        },
+        {
+          "name": "(.vimrc)",
+          "children": [
+            {
+              "name": "highlight",
+              "children": [
+                {
+                  "name": "comment",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "iabbrev",
+              "children": []
+            },
+            {
+              "name": "syntax",
+              "children": []
+            },
+            {
+              "name": "inoremap",
+              "children": []
+            },
+            {
+              "name": "syn",
+              "children": [
+                {
+                  "name": "match",
+                  "children": [
+                {
+                  "name": "comment",
+                  "children": []
+                }]
+                }
+				]
+            },
+            {
+              "name": "cscope",
+              "children": [
+                {
+                  "name": "add",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "autocmd",
+              "children": [
+                {
+                  "name": "BufWinEnter",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "set",
+              "children": [
+                {
+                  "name": "statusline",
+                  "children": []
+                },
+                {
+                  "name": "mouse",
+                  "children": []
+                },
+                {
+                  "name": "incsearch",
+                  "children": []
+                },
+                {
+                  "name": "nowrap",
+                  "children": []
+                },
+                {
+                  "name": "foldmethod",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": ",",
+          "children": [
+            {
+              "name": "$",
+              "children": [
+                {
+                  "name": "s/foo/bar/",
+                  "children": []
+                },
+                {
+                  "name": "d",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "%",
+          "children": []
+        },
+        {
+          "name": "w",
+          "children": []
+        },
+        {
+          "name": "q",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "v",
+      "children": []
+    },
+    {
+      "name": "(normal)",
+      "children": [
+        {
+          "name": "t",
+          "children": [
+            {
+              "name": ";;;;;",
+              "children": []
+            },
+            {
+              "name": ",,,,,",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "f",
+          "children": []
+        },
+        {
+          "name": "0",
+          "children": []
+        },
+        {
+          "name": "^",
+          "children": []
+        },
+        {
+          "name": "$",
+          "children": []
+        },
+        {
+          "name": "}",
+          "children": []
+        },
+        {
+          "name": "{",
+          "children": []
+        },
+        {
+          "name": "w",
+          "children": []
+        },
+        {
+          "name": "b",
+          "children": []
+        },
+        {
+          "name": "ed commands",
+          "children": [
+            {
+              "name": "1,$n",
+              "children": []
+            },
+            {
+              "name": "1,$p",
+              "children": []
+            },
+            {
+              "name": "w",
+              "children": []
+            },
+            {
+              "name": "x",
+              "children": []
+            },
+            {
+              "name": "q",
+              "children": []
+            },
+            {
+              "name": "d",
+              "children": []
+            },
+            {
+              "name": "1,5",
+              "children": []
+            },
+            {
+              "name": "%",
+              "children": []
+            },
+            {
+              "name": ",$",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "g",
+      "children": [
+        {
+          "name": "d",
+          "children": []
+        },
+        {
+          "name": "m",
+          "children": []
+        },
+        {
+          "name": "M",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "z",
+      "children": [
+        {
+          "name": "z",
+          "children": []
+        },
+        {
+          "name": ".",
+          "children": []
+        },
+        {
+          "name": "R",
+          "children": []
+        },
+        {
+          "name": "M",
+          "children": []
+        },
+        {
+          "name": "o",
+          "children": []
+        },
+        {
+          "name": "a",
+          "children": [
+            {
+              "name": "z",
+              "children": [
+                {
+                  "name": "a",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Z",
+      "children": [
+        {
+          "name": "Z",
+          "children": []
+        },
+        {
+          "name": "Q",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "c",
+      "children": [
+    {
+      "name": "i",
+      "children": [
+    {
+      "name": "w",
+      "children": []
+    }]
+    }]
+    },
+    {
+      "name": "v",
+      "children": []
+    },
+    {
+      "name": "`",
+      "children": [
+        {
+          "name": "`",
+          "children": []
+        },
+        {
+          "name": "A",
+          "children": []
+        },
+        {
+          "name": "V",
+          "children": []
+        },
+        {
+          "name": ".",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "r",
+      "children": []
+    },
+    {
+      "name": "\"+",
+      "children": [
+      
+    {
+      "name": "y",
+      "children": []
+    },
+    {
+      "name": "p",
+      "children": []
+    }
+      ]
+    },
+    {
+      "name": "",
+      "children": []
+    },
+    {
+      "name": "",
+      "children": []
+    },
+    {
+      "name": "",
+      "children": []
+    }
+  ]
+}
