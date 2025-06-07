@@ -12,11 +12,18 @@
   <body>
     <div id="root"></div>
 
+<!-- <img src="./logo.svg"  className="App-logo" alt="logo" /> -->
+        <!--<img src={logo} className="App-logo" alt="logo" />-->
+
     <!-- Your React code goes here -->
     <script type="text/babel">
+//import './App.css';
+//import logo from './logo.svg';
+
       function Hello() {
-        return <h1>Hello World</h1>;
+        return (<><h1>Hello World</h1>Note you can't use imports. React needs a bundler on the server. This sounds a lot like templating to me. What's so great about reactJS again?</>);
       }
+
 
       const root = ReactDOM.createRoot(document.getElementById('root'));
       root.render(<Hello />);
